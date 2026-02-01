@@ -540,8 +540,7 @@ const handleDeleteGroup = (groupId) => {
             localStorage.setItem("user", JSON.stringify(updatedUser));
             setUser(updatedUser);
 
-            setTutor(null);              // ← important
-            setEditingTutor(false);
+            setTutor(null); 
             setConfirmStopTutor(false);
             navigate("/profile");
           } catch {
