@@ -543,7 +543,8 @@ const handleDeleteGroup = (groupId) => {
             setTutor(null); 
             setConfirmStopTutor(false);
             navigate("/profile");
-          } catch {
+          } catch (error) {
+            console.error("Error stopping tutor:", error);
             alert("Failed to remove tutor profile");
           }
         }}
