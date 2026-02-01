@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "697f988bc3cf43be845f7796"
+  },
+  "userId": {
+    "$oid": "697d98d31b376787bc6b0c05"
+  },
+  "name": "Alice",
+  "qualification": "Diploma year 2",
+  "modules": [
+    "FWEB",
+    "ITAD"
+  ],
+  "days": [
+    "Mon",
+    "Wed"
+  ],
+  "startTime": "16:30",
+  "endTime": "18:30",
+  "createdAt": {
+    "$date": "2026-02-01T18:16:43.244Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-01T18:16:43.244Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "697f99b9c3cf43be845f77b5"
+  },
+  "name": "FWEB React Study Group",
+  "subject": "FWEB",
+  "adminId": {
+    "$oid": "697d9a811b376787bc6b0c19"
+  },
+  "adminName": "Danish",
+  "days": [
+    "Wed"
+  ],
+  "startTime": "19:00",
+  "endTime": "21:00",
+  "location": "library level 3",
+  "pax": 6,
+  "availableSeats": 5,
+  "welcomeMessage": "✨ MISSION ACCOMPLISHED: You're in! ✨\n\nHi there! I'm thrilled to welcome you to FWEB React Study Group. We're coming together to master FWEB and I'm glad to have you with us.\n\n📅 OUR SCHEDULE\nEvery: Wed\nTime: 19:00 to 21:00\n\n📍 WHERE WE MEET\nLocation: library level3\nNote: These sessions are held strictly at Temasek Polytechnic campus for TP students only.\n\n💡 NEXT STEPS:\n1. Mark these dates in your calendar so you don't miss out.\n2. Review any upcoming materials for FWEB.\n3. Bring your questions and a positive vibe!\nThis group is held exclusively at Temasek Polytechnic for TP students only. Please ensure you have your student ID ready for verification.\n\n📧 CONTACT & MS TEAMS\nIf you have questions, reach out,contact me (Admin: Danish) via MS Teams or Email:\nContact: D1001@student.tp.edu.sg\n\nI've set this group up for a maximum of 6 people to keep our sessions focused.\nLooking forward to our first session! 🚀",
+  "members": [
+    {
+      "$oid": "697deb81102e784cb35541ca"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-01T18:21:45.751Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-01T18:49:31.293Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "697f9ad4c3cf43be845f77f0"
+  },
+  "name": "ITAD Fundamentals Group",
+  "subject": "ITAD",
+  "adminId": {
+    "$oid": "697deb81102e784cb35541ca"
+  },
+  "adminName": "Dylan",
+  "days": [
+    "Fri",
+    "Tue"
+  ],
+  "startTime": "16:00",
+  "endTime": "18:30",
+  "location": "library level 5",
+  "pax": 5,
+  "availableSeats": 4,
+  "welcomeMessage": "✨ MISSION ACCOMPLISHED: You're in! ✨\n\nHi there! I'm thrilled to welcome you to ITAD Fundamentals Group. We're coming together to master ITAD and I'm glad to have you with us.\n\n📅 OUR SCHEDULE\nEvery: Fri, Tue\nTime: 16:00 to 18:30\n\n📍 WHERE WE MEET\nLocation: library level 5\nNote: These sessions are held strictly at Temasek Polytechnic campus for TP students only.\n\n💡 NEXT STEPS:\n1. Mark these dates in your calendar so you don't miss out.\n2. Review any upcoming materials for ITAD.\n3. Bring your questions and a positive vibe!\nThis group is held exclusively at Temasek Polytechnic for TP students only. Please ensure you have your student ID ready for verification.\n\n📧 CONTACT & MS TEAMS\nIf you have questions, reach out,contact me (Admin: Dylan) via MS Teams or Email:\nContact: D1002@student.tp.edu.sg\n\nI've set this group up for a maximum of 5 people to keep our sessions focused.\nLooking forward to our first session! 🚀",
+  "members": [
+    {
+      "$oid": "697d9a811b376787bc6b0c19"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-01T18:26:28.952Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-01T18:27:22.898Z"
+  },
+  "__v": 1
+}]
