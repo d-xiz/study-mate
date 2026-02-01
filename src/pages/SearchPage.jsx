@@ -84,17 +84,7 @@ if (!currentUser) {
       </div>
       </div>
  </div>
- <div className="container search-toolbar-cta">
-      <button
-        className="toolbar-cta"
-        onClick={() =>
-          navigate(mode === "tutor" ? "/become-tutor" : "/create-group")
-        }
-      >
-        {mode === "tutor" ? "Become Tutor" : "Add Study Group"}
-      </button>
 
-   </div>
   </section>
 
 
