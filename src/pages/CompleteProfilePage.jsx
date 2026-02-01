@@ -15,7 +15,6 @@ const CompleteProfilePage = () => {
     return null;
   }
 
-  // ===== STATE =====
   const [about, setAbout] = useState("");
   const [course, setCourse] = useState("");
 
@@ -28,7 +27,6 @@ const CompleteProfilePage = () => {
 
   const [moduleInput, setModuleInput] = useState("");
 
-  // ===== ADD MODULES =====
   const addStrong = () => {
     const value = moduleInput.trim().toUpperCase();
     if (!value || strongModules.includes(value)) return;

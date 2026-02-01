@@ -53,7 +53,7 @@ const sessionSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// 🔒 Prevent double booking of accepted sessions
+// Prevent double booking of accepted sessions
 sessionSchema.index(
   { tutorId: 1, date: 1, startTime: 1 },
   {

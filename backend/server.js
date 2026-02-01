@@ -26,12 +26,10 @@ useUnifiedTopology: true,
 .catch((err) => console.log(err));
 
 const app = express();
-/*
 app.use(cors({
   origin: "https://study-mate-ynmd.onrender.com",
   credentials: true,
-}));*/
-app.use(cors());
+}));
 
 // Allows Express to parse JSON data from incoming requests
 app.use(express.json({ limit: "1mb" }));
@@ -47,7 +45,7 @@ version: "1.0.0",
 description: "API documentation for my project",
 },
 },
-apis: ["./routes/*.js"], // Path to your API route files
+apis: ["./routes/*.js"], 
 };
 
 // Generate swagger documentation
@@ -64,7 +62,6 @@ app.use("/sessions", sessionRouter);
 
 
 
-// Initial route to test if your backend server is running properly
 app.get("/", async (req, res) => {
 res.send("<h1>Welcome to my API! The server is running successfully.</h1>");
 });
