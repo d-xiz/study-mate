@@ -26,10 +26,12 @@ useUnifiedTopology: true,
 .catch((err) => console.log(err));
 
 const app = express();
+/*
 app.use(cors({
   origin: "https://study-mate-ynmd.onrender.com",
   credentials: true,
-}));
+}));*/
+app.use(cors());
 
 // Allows Express to parse JSON data from incoming requests
 app.use(express.json({ limit: "1mb" }));

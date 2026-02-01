@@ -7,12 +7,13 @@ const NotificationsPage = () => {
   const [notifications, setNotifications] = useState([]);
 
   const currentUser = JSON.parse(localStorage.getItem("user"));
+  const userId = currentUser._id || currentUser.id;
 
   const loadNotifications = () => {
     if (!currentUser) return;
 
     api.notifications
-      .getForUser(currentUser.id)
+      .getForUser(userId)
       .then(setNotifications)
       .catch(() => console.error("Failed to load notifications"));
   };
