@@ -25,6 +25,7 @@ const CreateGroupPage = () => {
 
   const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
   const currentUser = JSON.parse(localStorage.getItem("user"));
+    const userId =  currentUser._id || currentUser.id;
     
   const { groupId } = useParams();
   const isEdit = Boolean(groupId);
@@ -118,7 +119,7 @@ const handleSubmit = async (e) => {
   const payload = {
     name: form.name,
     subject: form.subject.toUpperCase(),
-    adminId: currentUser.id,
+    adminId: userId,
     adminName: currentUser.name,
     days: form.days,
     startTime: form.startTime,
@@ -140,7 +141,7 @@ const handleSubmit = async (e) => {
       }, 1500);
     } else {
       //  CREATE MODE
-      await api.groups.create({ ...payload, adminId: currentUser.id, adminName: currentUser.name });
+      await api.groups.create({ ...payload, adminId: userId, adminName: currentUser.name });
       setMessage("Study group created successfully!");
     
     setTimeout(() => {
