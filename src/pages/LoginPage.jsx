@@ -41,7 +41,7 @@ const LoginPage = ({ setIsLoggedIn }) => {
   return (
     <main className="auth-page ">
       <form className="auth-card" onSubmit={handleLogin}>
-        <h2>Student Login</h2>
+        <h2>Student-Login</h2>
 <div className="form-field">
         <input
           type="text"
