@@ -23,7 +23,7 @@ const HomePage = () => {
         <div className="container hero-content">
           <h1>StudyMate</h1>
           <p className="hero-text">
-           Find tutors, join study groups, and learn better — together.</p>
+           Find tutors, join study groups, and learn better.</p>
 
           <div className="hero-search">
          <input
